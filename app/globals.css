@@ -20,12 +20,13 @@
 }
 
 body {
-  /* silly background */
-  background-color: var(--background);
-  background-image: url("/jacket-bg.png");
-  background-repeat: repeat;
-  background-position: top left;
-  background-size: 500px 300px;
+  background-color: #ed3b4b;
+  background-image: url("/bgs/Landing_Background.jpg");
+  background-repeat: no-repeat;
+  /* 👇 Change 'center' to 'top' */
+  background-position: center top;
+  background-size: cover;
+  background-attachment: fixed;
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
