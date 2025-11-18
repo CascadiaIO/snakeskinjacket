@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Snake Skin Jacket",
+  title: "Snakeskin Jacket",
   description: "A re-edit of Wild At Heart ",
 };
 
