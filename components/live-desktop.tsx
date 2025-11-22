@@ -1,5 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 
+import Link from "next/link";
+
 export default function LiveDesktop() {
   return (
     <div className="flex flex-col gap-8">
@@ -10,7 +12,8 @@ export default function LiveDesktop() {
       />
 
       <div className="flex justify-center items-center">
-        <button
+        <Link
+          href="https://stream.snakeskinjacket.live"
           className="
             live-button
             w-4/6
@@ -21,12 +24,9 @@ export default function LiveDesktop() {
             py-6
             text-5xl
             lg:text-6xl
-            xl:text-7xl"
-          style={{
-            fontFamily: "Nimbus Sans Bold",
-          }}>
+            xl:text-7xl">
           WATCH LIVE!
-        </button>
+        </Link>
       </div>
 
       <img
