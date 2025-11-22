@@ -7,11 +7,9 @@ export default function Home() {
   const isLive = process.env.STREAM_LIVE === "true";
   return (
     <main className="flex min-h-screen items-center justify-center font-sans px-4 py-6 md:px-16 md:py-0">
-      {/* Mobile foreground image */}
       <div className="block md:hidden max-w-full h-auto">
         {isLive ? <LiveMobile /> : <OfflineMobile />}
       </div>
-      {/* Desktop foreground image */}
       <div className="hidden md:block">
         {isLive ? <LiveDesktop /> : <OfflineDesktop />}
       </div>
