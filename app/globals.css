@@ -1,37 +1,3 @@
-/* Shared styles for live buttons */
-.live-button {
-  @apply font-bold
-    rounded-2xl
-    shadow-lg
-    text-center
-    cursor-pointer
-    whitespace-nowrap
-    transition
-    ease-in-out
-    duration-150
-    bg-[#FFFD2F]
-    text-[#ed3b4b]
-    hover:bg-[#F24162]
-    hover:text-[#FFFD2F]
-    active:bg-[#784A8C]
-    active:text-[#FFFD2F]
-    focus:bg-[#784A8C]
-    focus:text-[#FFFD2F]
-    hover:shadow-md
-    hover:scale-[1.02]
-    active:scale-[0.98]
-    active:shadow-sm;
-}
-
-.live-button:hover {
-  filter: brightness(0.9);
-}
-@font-face {
-  font-family: "Nimbus Sans Bold";
-  src: url("/fonts/Nimbus Sans Bold.ttf") format("truetype");
-  font-weight: bold;
-  font-style: normal;
-}
 @import "tailwindcss";
 
 :root {
