@@ -2,11 +2,11 @@
 
 export default function OfflineDesktop() {
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col items-center">
       <img
         src="/bgs/Landing_Desktop.png"
         alt="Landing"
-        className="max-w-3/4 xl:max-w-3/5 h-auto md:max-h-screen object-contain"
+        className="max-w-full lg:max-w-4/4 xl:max-w-3/4 2xl:max-w-2/3"
       />
     </div>
   );

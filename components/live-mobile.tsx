@@ -1,5 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 
+import Link from "next/link";
+
 export default function LiveMobile() {
   return (
     <div className="flex flex-col w-full gap-8">
@@ -10,7 +12,8 @@ export default function LiveMobile() {
       />
 
       <div className="flex w-full justify-center items-center">
-        <button
+        <Link
+          href="https://stream.snakeskinjacket.live"
           className="
             live-button
             w-5/6
@@ -18,7 +21,7 @@ export default function LiveMobile() {
             text-4xl
           ">
           WATCH LIVE!
-        </button>
+        </Link>
       </div>
     </div>
   );
